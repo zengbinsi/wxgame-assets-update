@@ -1,5 +1,9 @@
 ### 运行于JavaScript环境下的TypeScript脚本解释器。微信小游戏代码热更新技术。
 
+【微信小游戏热更新，原作者开源仓库地址：https://gitee.com/jianyumofa/qyscript】
+【微信小游戏热更新，原作者开源仓库地址：https://gitee.com/jianyumofa/qyscript】
+【微信小游戏热更新，原作者开源仓库地址：https://gitee.com/jianyumofa/qyscript】
+
 1. 可以直接在JavaScript的运行环境中运行TypeScript代码
 2. 性能问题：一般游戏性能不会有问题。如果需要有高性能的需求，请把高性能的代码做成库文件
 3. 代码体积问题，因为需要从服务器拉取代码，目前没有实现编译成字节码，暂时可以用jsmin先做简单的压缩
