@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MoreGameItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" width="400" height="120">
+		<e:Rect fillColor="0xfbd7c6" left="0" bottom="0" right="0" top="0" ellipseWidth="40" fillAlpha="0.9" width="390" />
+		<e:Group left="6" verticalCenter="0">
+			<e:Rect width="80" height="80" fillColor="0xffffff" horizontalCenter="0" verticalCenter="0" ellipseWidth="30" />
+			<e:Image id="gameIcon" width="70" height="70" horizontalCenter="0" verticalCenter="0"  source="{data.source}"/>
+		</e:Group>
+		<e:Label id="gameName" text="{data.name}" size="18" fontFamily="SimHei" left="94" verticalCenter="0" textAlign="left"
+		         textColor="0xed453b" width="106"  anchorOffsetX="0" height="54" verticalAlign="middle"/>
+		<e:Image id="redImage" width="24" height="29" source="redBox" verticalCenter="0"  scaleX="1.5" scaleY="1.5" horizontalCenter="23"/>
+		<e:Image id="hadGet" source="hadGet_png" right="0" top="0" visible="false"/>
+		<e:Group id="playGameButton" width="114" height="40" scaleX="1.3" scaleY="1.3" verticalCenter="0" left="247">
+			<e:Button id="playGameButton1" label="立即试玩" scaleX="1" scaleY="1" width="114" height="40" horizontalCenter="0" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="friendRank"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="18"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="playGameButton0" label="开始游戏" scaleX="1" scaleY="1" verticalCenter="0" width="114" height="40" y="0" horizontalCenter="0" visible="false">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="newIdiom_json.netxButtn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="18"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+</e:Skin>

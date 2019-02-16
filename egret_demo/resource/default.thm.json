@@ -1,0 +1,20 @@
+{
+	"skins": {},
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skins/AnswerSkin.exml",
+		"resource/skins/ButtonListSkin.exml",
+		"resource/skins/KepuSkin.exml",
+		"resource/skins/LabelListSkin.exml",
+		"resource/skins/LevelListSkin.exml",
+		"resource/skins/LevelSkin.exml",
+		"resource/skins/MainSkin.exml",
+		"resource/skins/MoreGameItemSkin.exml",
+		"resource/skins/MoreGameSkin.exml",
+		"resource/skins/RankSkin.exml",
+		"resource/skins/RedBagSkin.exml",
+		"resource/skins/ResultSkin.exml",
+		"resource/skins/UnlockSkin.exml"
+	],
+	"path": "resource/default.thm.json"
+}

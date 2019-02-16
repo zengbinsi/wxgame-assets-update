@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AnswerSkin" width="445" height="537" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:how="how.*">
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image left="0" right="0" top="0" bottom="0" source="newIdiom_json.bg"/>
+		<e:Group id="idome" width="312.11" height="184.84" anchorOffsetX="0" horizontalCenter="0" verticalCenter="70.5" anchorOffsetY="0">
+			<e:Label id="idiom_00" text="手" size="72" bold="true" scaleX="1" scaleY="1" horizontalCenter="-114" verticalCenter="-51" fontFamily="DFKai-SB" textColor="0x8f581a"/>
+			<e:Label id="idiom_01" text="一" size="72" bold="true" scaleX="1" scaleY="1" horizontalCenter="-38" verticalCenter="-51" fontFamily="DFKai-SB" textColor="0x8f581a"/>
+			<e:Label id="idiom_02" text="手" size="72" bold="true" scaleX="1" scaleY="1" horizontalCenter="38" verticalCenter="-51" fontFamily="DFKai-SB" textColor="0x8f581a"/>
+			<e:Label id="idiom_03" text="手" size="72" bold="true" scaleX="1" scaleY="1" horizontalCenter="114" verticalCenter="-51" fontFamily="DFKai-SB" textColor="0x8f581a"/>
+			<e:Label id="idiom_10" text="手" size="72" bold="true" scaleX="1" scaleY="1" horizontalCenter="-114" verticalCenter="36" fontFamily="DFKai-SB" textColor="0x8f581a"/>
+			<e:Label id="idiom_11" text="手" size="72" bold="true" scaleX="1" scaleY="1" horizontalCenter="-38" verticalCenter="36" fontFamily="DFKai-SB" textColor="0x8f581a"/>
+			<e:Label id="idiom_12" text="手" size="72" bold="true" scaleX="1" scaleY="1" horizontalCenter="38" verticalCenter="36" fontFamily="DFKai-SB" textColor="0x8f581a"/>
+			<e:Label id="idiom_13" text="手" size="72" bold="true" scaleX="1" scaleY="1" horizontalCenter="114" verticalCenter="36" fontFamily="DFKai-SB" textColor="0x8f581a"/>
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Image source="newIdiom_json.help" y="142" horizontalCenter="0"/>
+		<how:Animator horizontalCenter="0" y="120" source="qiuzhuchenggong" touchChildren="false" touchEnabled="false"/>
+	</e:Group>
+	<e:Group id="button_close" width="235" height="80" y="545" horizontalCenter="0">
+		<e:Image source="newIdiom_json.netxButtn" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="jixudati_png" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+</e:Skin>

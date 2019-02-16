@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:tween="egret.tween.*" class="MainSkin" xmlns:how="how.*">
+    <w:Declarations></w:Declarations>
+    <e:Image left="0" right="0" top="0" bottom="0" source="mainBg_jpg" />
+    <how:Animator source="zhujiemian" right="95" top="95" touchChildren="false" touchEnabled="false" />
+    <e:Group id="all" width="640" height="1136" verticalCenter="0" horizontalCenter="0">
+        <e:Group id="problems" height="361" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" width="603"
+                 top="186" x="7" y="109" scaleX="1" scaleY="1">
+            <e:Image left="0" right="0" top="0" bottom="0" source="newIdiom_json.subject" />
+            <e:List id="labelList" itemRendererSkinName="LabelListSkin" horizontalCenter="0" verticalCenter="0">
+                <e:layout>
+                    <e:TileLayout horizontalGap="2" verticalGap="2" />
+                </e:layout>
+            </e:List>
+            <e:layout>
+                <e:BasicLayout/>
+            </e:layout>
+        </e:Group>
+        <e:Group id="answer" width="566" height="267" horizontalCenter="0" top="644" x="37" y="692" scaleX="1"
+                 scaleY="1">
+            <e:List id="buttonList" scaleX="1" scaleY="1" itemRendererSkinName="ButtonListSkin" horizontalCenter="0"
+                    verticalCenter="0">
+                <e:layout>
+                    <e:TileLayout requestedColumnCount="4" requestedRowCount="2" rowHeight="100" columnWidth="100"
+                                  paddingTop="0" paddingLeft="0" paddingRight="0" paddingBottom="0" horizontalGap="40"
+                                  verticalGap="40" />
+                </e:layout>
+            </e:List>
+        </e:Group>
+        <e:Group id="button" height="83.33" anchorOffsetX="0" anchorOffsetY="0" top="558" left="0" right="0" x="0"
+                 y="583" scaleX="1" scaleY="1">
+            <how:Button id="showRanking" width="190" height="64" horizontalCenter="-204"
+                        verticalCenter="-0.16499999999999915">
+                <e:skinName>
+                    <e:Skin states="up,down,disabled">
+                        <e:Image scaleX="1" scaleY="1" top="0" bottom="0" left="0" right="0"
+                                 source="newIdiom_json.friendRank" />
+                        <e:Image horizontalCenter="0" source="newIdiom_json.friendRankWord" verticalCenter="0" />
+                    </e:Skin>
+                </e:skinName>
+            </how:Button>
+            <how:Button id="showAnswerBtn" width="190" height="64" horizontalCenter="0"
+                        verticalCenter="-0.16499999999999915" soundPath="assets/answerButton.mp3">
+                <e:skinName>
+                    <e:Skin states="up,down,disabled">
+                        <e:Image scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"
+                                 source="newIdiom_json.showAnswerButtn" />
+                        <e:Image id="img_shareAnswer" x="47" source="newIdiom_json.showAnswerWord" verticalCenter="0" />
+                        <e:Image id="answerTips" scaleX="1" scaleY="1" horizontalCenter="125" top="-70"
+                                 source="tips_png" visible="false" />
+                        <e:Image id="img_answerVideo" x="20" source="newIdiom_json.videoIcon" verticalCenter="0" />
+                    </e:Skin>
+                </e:skinName>
+            </how:Button>
+            <how:Button id="selectRound" width="190" height="64" horizontalCenter="204"
+                        verticalCenter="-0.16499999999999915">
+                <e:skinName>
+                    <e:Skin states="up,down,disabled">
+                        <e:Image scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"
+                                 source="newIdiom_json.roundButtn" />
+                        <e:Image horizontalCenter="0" source="newIdiom_json.roudWord" verticalCenter="0" />
+                    </e:Skin>
+                </e:skinName>
+            </how:Button>
+            <e:layout>
+                <e:BasicLayout/>
+            </e:layout>
+        </e:Group>
+        <e:Group id="buttonMusic" width="60" height="53" y="33" x="221" scaleX="1" scaleY="1">
+            <e:Image top="0" left="0" scaleX="1" scaleY="1" right="0" bottom="0" source="newIdiom_json.musicClose" />
+            <e:Image id="musicOpen" top="0" left="0" scaleX="1" scaleY="1" right="0" bottom="0" x="10" y="10"
+                     source="newIdiom_json.musicOppen" />
+        </e:Group>
+        <e:Group id="title" width="179" height="76" y="21" scaleX="1" scaleY="1" left="24">
+            <e:Image left="0" right="0" top="0" bottom="0" source="newIdiom_json.subjectNumber" />
+            <e:Label id="levelLabel" text="第1题" size="25" verticalCenter="0" textColor="0xffef9e" horizontalCenter="0" />
+        </e:Group>
+        <e:Group id="mainRed" width="130" height="33" x="51" y="121">
+            <e:Rect left="0" right="0" top="0" bottom="0" fillColor="0x613722" alpha="0.5" />
+            <e:Label id="label_mainRedMoney" text="￥0.00" left="0" right="0" top="0" bottom="0" verticalAlign="middle"
+                     textAlign="center" size="24" textColor="0x181710" />
+            <e:Image left="-31" verticalCenter="-1" source="newIdiom_json.redBox" width="50" height="60" />
+            <e:Group id="btn_getMoney" width="65" height="44" x="117" verticalCenter="0">
+                <e:Image anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"
+                         source="newIdiom_json.getMoney" width="65" height="44" />
+            </e:Group>
+        </e:Group>
+        <e:Group id="mainRed1" width="172" height="45" y="106" x="299">
+            <e:Image horizontalCenter="0" verticalCenter="0" source="newIdiom_json.redBg" />
+            <e:Image id="redLight1" source="mainLight1_png" anchorOffsetX="49" anchorOffsetY="46" x="-13" y="23" />
+            <e:Image id="redLight2" source="mainLight1_png" anchorOffsetX="49" anchorOffsetY="46" x="86" y="23" />
+            <e:Image id="redLight3" source="mainLight1_png" anchorOffsetX="49" anchorOffsetY="46" x="185" y="23" />
+            <e:Image id="btn_getRed1" left="-36" verticalCenter="0" source="newIdiom_json.redBox1" />
+            <e:Image id="btn_getRed2" horizontalCenter="0" verticalCenter="0" source="newIdiom_json.redBox1" />
+            <e:Image id="btn_getRed3" right="-36" verticalCenter="0" source="newIdiom_json.redBox1" />
+            <e:Image id="btn_getRedG1" left="-32" verticalCenter="0" source="newIdiom_json.hook"  touchEnabled="false"/>
+            <e:Image id="btn_getRedG2" horizontalCenter="0" verticalCenter="0" source="newIdiom_json.hook"  touchEnabled="false"/>
+            <e:Image id="btn_getRedG3" right="-32" verticalCenter="0" source="newIdiom_json.hook"  touchEnabled="false"/>
+            <e:Label text="答对50题" y="50" size="18" left="-51" textColor="0x5c5047" />
+            <e:Label text="答对100题" horizontalCenter="0" size="18" textColor="0x5c5047" y="50" />
+            <e:Label text="答对200题" size="18" right="-59" textColor="0x5c5047" y="50" />
+        </e:Group>
+        <how:Button id="btn_popularization" width="96" height="53" x="299" y="33">
+            <how:skinName>
+                <e:Skin states="up,down,disabled">
+                    <e:Image width="100%" height="100%" source="newIdiom_json.popularization" />
+                </e:Skin>
+            </how:skinName>
+        </how:Button>
+    </e:Group>
+    <e:Group left="10" width="107" height="114" y="315">
+        <how:Button id="btn_achievement" width="107" height="114" anchorOffsetX="53.5" anchorOffsetY="57" y="57"
+                    scaleX="1" scaleY="1" x="53.5" >
+					<how:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="newIdiom_json.getRed"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</how:skinName>
+				</how:Button>
+    </e:Group>
+</e:Skin>

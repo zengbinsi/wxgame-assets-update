@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MoreGameSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:how="how.*">
+	<e:Group id="container" horizontalCenter="0" verticalCenter="-50">
+		<e:Image source="bg" horizontalCenter="0" top="135" width="450" height="600" />
+		<e:Group y="175" anchorOffsetX="0" horizontalCenter="0">
+			<e:Rect width="312" height="33" verticalCenter="0" fillColor="0xe0cbbc" ellipseWidth="40" horizontalCenter="0"
+			        fillAlpha="0.5" />
+			<e:Label text="体验其他游戏可获得红包" size="24" verticalCenter="0" horizontalCenter="0" textColor="0x0989b8"
+			         fontFamily="SimHei" />
+		</e:Group>
+		<e:Scroller horizontalCenter="0" top="218" anchorOffsetX="0" height="500">
+			<e:List id="gameList" useVirtualLayout="false" itemRendererSkinName="MoreGameItemSkin" horizontalCenter="0">
+				<e:layout>
+					<e:VerticalLayout gap="12" />
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object appId="wx7d2e1dd8fd7ea905" source="xiaoxingxing_png" name="疯狂玩消星星"
+						          gameUrl="/pages/index/index?gdt_vid=mengjia&amp;weixinadinfo=0001&amp;channel=mengjia.h5xxxstar.1342" />
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Group width="578" height="173" y="-9" scaleX="1" scaleY="1" horizontalCenter="0">
+			<e:Image scale9Grid="20,23,31,20" source="eaves" horizontalCenter="5" y="17" x="0" scaleX="1" scaleY="1" />
+			<e:Image id="title_0" source="shi_png" horizontalCenter="-104" verticalCenter="46" />
+			<e:Image horizontalCenter="-32" verticalCenter="46" id="title_1" source="wan_png" />
+			<e:Image horizontalCenter="42" verticalCenter="46" id="title_2" source="ling_png" />
+			<e:Image horizontalCenter="116" verticalCenter="46" id="title_3" source="jiang_png" />
+			<how:Button id="closeButton" right="37" top="138" x="531" y="366" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="close" />
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+					</e:Skin>
+				</e:skinName>
+			</how:Button>
+			<e:Image source="newIdiom_json.fu" left="37" top="138" />
+			<how:Animator y="336.5" scaleX="1" scaleY="1" left="60" source="jinbangtiming" touchChildren="false"
+			              touchEnabled="false" />
+			<how:Animator y="336.5" scaleX="1" scaleY="1" source="jinbangtiming" touchChildren="false" touchEnabled="false"
+			              right="62" width="0" />
+		</e:Group>
+	</e:Group>
+</e:Skin>

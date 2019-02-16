@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "amd",
+    "watch": true,
+    "sourceMap": true,
+    "outDir": "./out",
+    "outFile": "./out/qyscript.js",
+    "declaration": true
+  },
+  "exclude": [
+    "node_modules",
+    "out",
+    "egret_demo",
+    "cocos_demo"
+  ],
+  "include": [
+    "src"
+  ]
+}

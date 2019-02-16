@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ResultSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="445" height="537"
+        xmlns:how="how.*">
+    <e:Group horizontalCenter="0" verticalCenter="0">
+        <e:Image source="newIdiom_json.bg" x="0" y="0" scaleX="1" scaleY="1" />
+        <e:Label id="titleLabel" text="恭喜过关" size="40" bold="true" horizontalCenter="0.5" textColor="0xed543b" x="141"
+                 scaleX="1" scaleY="1" verticalCenter="-127.5" />
+        <e:Group horizontalCenter="0" y="184" x="156" scaleX="1" scaleY="1">
+            <e:Label id="levelField" text="等级:" size="30" bold="true" verticalCenter="-70" horizontalCenter="-28"
+                     textColor="0xd18e2e" x="-64" y="0" scaleX="1" scaleY="1" />
+            <e:Label id="levelValue" text="童生" size="30" bold="true" verticalCenter="-70" textColor="0xed453e" x="5"
+                     y="0" scaleX="1" scaleY="1" />
+            <e:layout>
+                <e:HorizontalLayout gap="0" />
+            </e:layout>
+        </e:Group>
+        <e:Image id="titleIcon" source="newIdiom_json.right" y="28" horizontalCenter="0" x="120" scaleX="1" scaleY="1" />
+        <e:Scroller width="392" height="259" y="237" horizontalCenter="0" x="27" scaleX="1" scaleY="1">
+            <e:Group>
+                <e:List id="gameList" width="100%" x="0" y="0">
+                    <e:itemRendererSkinName>
+                        <e:Skin width="110" height="110">
+                            <e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xffffff" ellipseWidth="27" />
+                            <e:Image id="otherGame0" width="100" height="100" horizontalCenter="0" verticalCenter="0"
+                                     source="{data.source}" />
+                        </e:Skin>
+                    </e:itemRendererSkinName>
+									<e:ArrayCollection>
+										<e:Array>
+											<e:Object appId="wx95e8c3e07555e6fb" source="zhentuji_png" name="珍图籍" gameUrl="pages/index/index?ald_media_id=10576&amp;ald_link_key=092af8b21a27edc9"/>
+										</e:Array>
+									</e:ArrayCollection>
+
+                    <e:layout>
+                        <e:TileLayout horizontalGap="13" verticalGap="11" paddingLeft="19" paddingTop="13" />
+                    </e:layout>
+                </e:List>
+            </e:Group>
+        </e:Scroller>
+    </e:Group>
+    <how:Animator id="animator0" source="daduijiemian" autoPlay="false" left="0" scaleX="1" scaleY="1"
+                  verticalCenter="-395" touchChildren="false" touchEnabled="false" />
+    <how:Animator id="animator1" source="daduijiemian" autoPlay="false" right="0" scaleX="-1" scaleY="1"
+                  verticalCenter="-395" touchChildren="false" touchEnabled="false" />
+    <e:Button id="btn_left" label="" verticalCenter="316" horizontalCenter="-132">
+        <e:skinName>
+            <e:Skin width="235" height="80">
+                <e:Image left="0" right="0" top="0" bottom="0" source="newIdiom_json.showAnswerButtn" />
+                <e:Image id="labelIcon" horizontalCenter="0" verticalCenter="0" source="newIdiom_json.shareFriend" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Button id="btn_right" label="" verticalCenter="316" horizontalCenter="132">
+        <e:skinName>
+            <e:Skin width="235" height="80">
+                <e:Image scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" source="newIdiom_json.netxButtn" />
+                <e:Image id="labelIcon" horizontalCenter="0" verticalCenter="0" source="newIdiom_json.nextWord" />
+                <e:Image id="shareVideo" source="videoIcon_png" x="41" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+</e:Skin>

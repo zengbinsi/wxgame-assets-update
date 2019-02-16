@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LevelListSkin" width="108" height="120" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Image left="0" right="0" top="0" bottom="0" source="newIdiom_json.roundBg" />
+    <e:Label id="labelChoose" text="1" left="0" right="0" top="0" bottom="13" fontFamily="DFKai-SB"
+             borderColor="0x000000" backgroundColor="0xa34e16" background="false" textAlign="center" bold="true"
+             size="48" verticalAlign="middle" textColor="0xffffff" border="false" strokeColor="0xa34e16" stroke="2" />
+    <e:Image id="chooseLock" source="newIdiom_json.roundLock" width="108" x="0" height="120" y="0" />
+</e:Skin>

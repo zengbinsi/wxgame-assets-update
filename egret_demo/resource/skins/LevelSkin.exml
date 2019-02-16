@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LevelSkin" width="445" height="537" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:how="how.*">
+	<e:Image left="0" right="0" top="0" bottom="0" source="newIdiom_json.bg"/>
+	<e:Group id="star" width="285" height="50" horizontalCenter="0" top="32">
+		<e:Image source="newIdiom_json.starBgBig" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+		<e:Image id="starBlack_1" source="newIdiom_json.starBg" scaleX="1" scaleY="1" horizontalCenter="-100" verticalCenter="0"/>
+		<e:Image source="newIdiom_json.starBg" scaleX="1" scaleY="1" horizontalCenter="-50" verticalCenter="0" id="starBlack_2"/>
+		<e:Image source="newIdiom_json.starBg" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" id="starBlack_3"/>
+		<e:Image source="newIdiom_json.starBg" scaleX="1" scaleY="1" horizontalCenter="50" verticalCenter="0" id="starBlack_4"/>
+		<e:Image source="newIdiom_json.starBg" scaleX="1" scaleY="1" horizontalCenter="100" verticalCenter="0" id="starBlack_5"/>
+		<e:Image id="star_1" source="newIdiom_json.star" scaleX="1" scaleY="1" horizontalCenter="-100" verticalCenter="0" visible="false"/>
+		<e:Image source="newIdiom_json.star" scaleX="1" scaleY="1" horizontalCenter="-50" verticalCenter="0" id="star_2" visible="false"/>
+		<e:Image source="newIdiom_json.star" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" id="star_3" visible="false"/>
+		<e:Image source="newIdiom_json.star" scaleX="1" scaleY="1" horizontalCenter="50" verticalCenter="0" id="star_4" visible="false"/>
+		<e:Image source="newIdiom_json.star" scaleX="1" scaleY="1" horizontalCenter="100" verticalCenter="0" id="star_5" visible="false"/>
+	</e:Group>
+	<e:List id="levelList" left="0" right="0" top="0" bottom="0" itemRendererSkinName="LevelListSkin">
+		<e:layout>
+			<e:TileLayout paddingLeft="39" paddingRight="39" paddingTop="105" paddingBottom="44" rowAlign="justifyUsingGap" columnAlign="justifyUsingGap"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object test="null"/>
+				<e:Object test="null"/>
+				<e:Object test="null"/>
+				<e:Object test="null"/>
+				<e:Object test="null"/>
+				<e:Object test="null"/>
+				<e:Object test="null"/>
+				<e:Object test="null"/>
+				<e:Object test="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>
+	<e:Group width="578" height="173" horizontalCenter="0" top="-126">
+		<e:Image source="newIdiom_json.eaves" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="title_0" source="newIdiom_json.you" horizontalCenter="-108.8" verticalCenter="32"/>
+		<e:Image id="title_1" horizontalCenter="-37" verticalCenter="32" source="newIdiom_json.xi"/>
+		<e:Image id="title_2" verticalCenter="32" horizontalCenter="37" source="newIdiom_json.guan"/>
+		<e:Image id="title_3" verticalCenter="32" horizontalCenter="111" source="newIdiom_json.qia"/>
+        <how:Button id="closeButton" right="42" top="124">
+            <e:skinName>
+                <e:Skin states="up,down,disabled">
+                    <e:Image width="100%" height="100%" source="close" />
+                    <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+                </e:Skin>
+            </e:skinName>
+        </how:Button>
+		<e:Image top="124" y="118" scaleX="1" scaleY="1" left="42" width="47" source="newIdiom_json.fu"/>
+	</e:Group>
+	<e:Image id="buttonRight" right="-30" verticalCenter="0" source="newIdiom_json.roundNext" scaleX="-1"/>
+	<e:Image id="buttonLeft" verticalCenter="0" left="-30" source="newIdiom_json.roundNext"/>
+	<how:Animator y="192" left="0" source="jinbangtiming" touchChildren="false" touchEnabled="false"/>
+	<how:Animator y="192" right="0" source="jinbangtiming" touchChildren="false" touchEnabled="false"/>
+</e:Skin>

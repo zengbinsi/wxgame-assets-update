@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LabelListSkin" width="70" height="70" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Image left="0" right="0" top="0" bottom="0" source="newIdiom_json.subjectBg1" visible="{data.label}" />
+    <e:Label id="idiomLabel" text="{data.label}" scaleX="1" scaleY="1" size="50" verticalAlign="middle"
+             textAlign="center" backgroundColor="0x044ad6" background="false" left="0" right="0" top="0" bottom="0"
+             textColor="0x2b1d16" visible="{data.label}" />
+    <e:Image id="rect" left="0" right="0" top="0" bottom="0" source="newIdiom_json.subjectBg" visible="{data.isAnswer}" />
+</e:Skin>

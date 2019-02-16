@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UnlockSkin" width="445" height="537" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:how="how.*">
+    <e:Group id="main" left="0" right="0" top="0" bottom="0">
+        <e:Image left="0" right="0" top="0" bottom="0" source="newIdiom_json.bg" />
+        <e:Label text="解锁：" size="36" horizontalCenter="-37" verticalCenter="126" textColor="0x8f581a" />
+        <e:Label id="label_roundNumber" text="第6关" size="30" horizontalCenter="46" verticalCenter="126" width="106"
+                 height="30" verticalAlign="middle" textAlign="center" textColor="0x8f581a" />
+        <e:Image source="newIdiom_json.unlock" y="160" horizontalCenter="0" />
+        <e:Image source="newIdiom_json.congratulations" y="257" horizontalCenter="0" />
+    </e:Group>
+    <e:Group id="button_share" width="235" height="80" horizontalCenter="0" verticalCenter="316">
+        <e:Image left="0" right="0" top="0" bottom="0" source="newIdiom_json.netxButtn" />
+        <e:Image source="newIdiom_json.sharePk" horizontalCenter="0" verticalCenter="0" />
+    </e:Group>
+    <how:Animator horizontalCenter="0" source="qiuzhuchenggong" touchChildren="false" touchEnabled="false" y="140" />
+    <how:Button id="closeButton" right="-24" top="12">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="close" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </how:Button>
+</e:Skin>

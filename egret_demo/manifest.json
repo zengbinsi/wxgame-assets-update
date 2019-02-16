@@ -1,0 +1,25 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/assetsmanager/assetsmanager.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/dragonBones/dragonBones.js",
+		"libs/modules/socket/socket.js",
+		"libs/modules/game/game.js",
+		"libs/modules/promise/promise.js",
+		"libs/qyscript/qyscript.js"
+	],
+	"game": [
+		"bin-debug/Adapter.js",
+		"bin-debug/Main.js",
+		"bin-debug/game/Game.js",
+		"bin-debug/game/UIUtils.js",
+		"bin-debug/how/Animator.js",
+		"bin-debug/how/Button.js",
+		"bin-debug/how/DisplayUtils.js",
+		"bin-debug/how/ResourceLoader.js",
+		"bin-debug/how/SoundManager.js"
+	]
+}

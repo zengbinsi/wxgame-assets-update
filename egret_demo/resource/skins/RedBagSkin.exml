@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RedBagSkin" width="578" height="820" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:how="how.*">
+    <e:ViewStack id="viewStack" left="0" right="0" top="0" bottom="0">
+        <e:Group id="bg1" left="0" right="0" top="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1">
+            <e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xa73d30" ellipseWidth="80" ellipseHeight="80" />
+            <e:Image source="red_png" left="0" right="0" top="0" height="538.88" />
+            <e:Label text="我爱猜字" y="180" size="36" verticalAlign="middle" textAlign="center" horizontalCenter="0" />
+            <e:Label text="奖励你一波红包" y="228" size="30" verticalAlign="middle" textAlign="center" horizontalCenter="0" />
+            <e:Label text="好好学习，天天向上！" y="279" size="48" verticalAlign="middle" textAlign="center" horizontalCenter="0" />
+            <e:Group id="label_banner" width="424" height="47" y="379" horizontalCenter="0">
+                <e:Rect scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" fillColor="0xfad657" />
+                <e:Label text="点击下方图片后可打开红包" size="32" verticalAlign="middle" textAlign="center" horizontalCenter="0"
+                         backgroundColor="0x020000" x="0" scaleX="1" scaleY="1" verticalCenter="0" textColor="0x000000"
+                         bold="true" />
+            </e:Group>
+            <e:Group id="red_open" width="231" height="232" y="462" scaleX="0.7" scaleY="0.7" horizontalCenter="0">
+                <e:Image source="redOpen_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" />
+                <e:Image id="bg1_video" source="videoIcon_png" y="174" horizontalCenter="0" x="102" scaleX="1"
+                         scaleY="1" />
+            </e:Group>
+            <e:Group id="openRed" left="0" right="0" top="0" bottom="0">
+                <e:Label id="btn_close1" text="x" textColor="0x000000" size="56" verticalAlign="middle"
+                         textAlign="center" right="14" top="13" />
+            </e:Group>
+            <e:Group id="button_init" width="444" height="38.67" y="758" anchorOffsetY="0" anchorOffsetX="0"
+                     horizontalCenter="0">
+                <e:Label text="如果领取失败，请点击此处刷新图片" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" size="26"
+                         textColor="0x000000" bold="true" />
+            </e:Group>
+        </e:Group>
+        <e:Group id="bg2" left="0" right="0" top="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1">
+            <e:Rect scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" fillColor="0xffffff" ellipseWidth="80"
+                    ellipseHeight="80" />
+            <e:Image source="red1_png" left="0" right="0" top="0" height="129" />
+            <e:Group width="354" height="84" y="83" scaleX="1" scaleY="1" horizontalCenter="0">
+                <e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xa2453a" />
+                <e:Rect left="3" right="3" top="3" bottom="3" fillColor="0xddf3ff" />
+                <e:Label id="bg2_hadMoney" text="红包余额0元" verticalCenter="0" verticalAlign="middle" textAlign="center"
+                         width="343.33" size="42" textColor="0xda5242" anchorOffsetX="0" horizontalCenter="0" />
+            </e:Group>
+            <e:Label text="恭喜您获得" verticalAlign="middle" textAlign="center" width="300" size="60" anchorOffsetX="0"
+                     y="228" horizontalCenter="0" textColor="0xdc981f" />
+            <e:Label id="bg2_getMoney" text="￥0.00" verticalAlign="middle" textAlign="center" width="501" size="100"
+                     anchorOffsetX="0" y="354" horizontalCenter="0" textColor="0x4a4609" />
+            <e:Group id="bg2_share" width="260" height="70" y="654" horizontalCenter="0">
+                <e:Image left="0" right="0" top="0" bottom="0" source="greenButtn_png" />
+                <e:Image id="bg2_video" width="27" x="12" height="27" source="videoIcon_png" verticalCenter="-3" />
+                <e:Label text="存入余额" size="36" verticalCenter="0" x="58" />
+            </e:Group>
+            <e:Label id="btn_close2" text="x" textColor="0x000000" size="56" verticalAlign="middle" textAlign="center"
+                     right="14" top="13" x="536" y="13" scaleX="1" scaleY="1" />
+        </e:Group>
+        <e:Group id="bg3" left="0" right="0" top="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1">
+            <e:Rect left="0" right="0" top="0" bottom="0" ellipseWidth="35" ellipseHeight="35" fillColor="0xffffff" />
+            <e:Rect left="10" right="10" bottom="10" ellipseWidth="20" ellipseHeight="20" fillColor="0xda5242"
+                    height="708" />
+            <e:Group width="180" height="180" y="182" horizontalCenter="0">
+                <e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xf2d252" ellipseWidth="180"
+                        ellipseHeight="180" />
+                <e:Label text="￥" size="150" horizontalCenter="0" verticalCenter="5" textColor="0xaa813f" />
+            </e:Group>
+            <e:Label text="我的红包" size="36" horizontalCenter="0" x="214" y="403" scaleX="1" scaleY="1"
+                     textColor="0xececeb" />
+            <e:Label id="bg3_hadMoney" text="￥0.00" size="48" y="468" scaleX="1" scaleY="1" width="322"
+                     verticalAlign="middle" textAlign="center" horizontalCenter="0" textColor="0xfeef04" />
+            <e:Group id="bg3_over" width="380" height="82" y="578" horizontalCenter="0">
+                <e:Image left="0" right="0" top="0" bottom="0" source="greenButtn_png" />
+                <e:Label text="确定提现" size="48" horizontalCenter="0" verticalCenter="0" />
+                <e:Image id="bg3_video" source="videoIcon_png" x="49" y="28" />
+            </e:Group>
+            <e:Label text="最低提现额度为30元" y="688" size="24" horizontalCenter="0" textColor="0xdddddc" />
+            <e:Label id="bg3_noMoney" text="提现余额不足，快去对战领红包吧！" y="735" size="33" anchorOffsetX="0" width="544"
+                     verticalAlign="middle" textAlign="center" horizontalCenter="0" textColor="0x600c02" bold="true"
+                     visible="false" />
+            <e:Label id="btn_close3" text="x" textColor="0x000000" size="56" verticalAlign="middle" textAlign="center"
+                     right="14" top="13" x="536" y="13" scaleX="1" scaleY="1" />
+        </e:Group>
+    </e:ViewStack>
+</e:Skin>
