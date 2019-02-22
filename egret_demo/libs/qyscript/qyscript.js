@@ -16,7 +16,7 @@ var qs;
             this.token = token;
         }
         return CodeObject;
-    }());
+    } ());
     qs.CodeObject = CodeObject;
 })(qs || (qs = {}));
 /// <reference path="CodeObject.ts"/>
@@ -30,7 +30,7 @@ var qs;
             return _this;
         }
         return CodeArray;
-    }(qs.CodeObject));
+    } (qs.CodeObject));
     qs.CodeArray = CodeArray;
 })(qs || (qs = {}));
 /// <reference path="CodeObject.ts"/>
@@ -47,7 +47,7 @@ var qs;
             return _this;
         }
         return CodeAssign;
-    }(qs.CodeObject));
+    } (qs.CodeObject));
     qs.CodeAssign = CodeAssign;
 })(qs || (qs = {}));
 /// <reference path="CodeObject.ts"/>
@@ -64,7 +64,7 @@ var qs;
             return _this;
         }
         return CodeCallFunction;
-    }(qs.CodeObject));
+    } (qs.CodeObject));
     qs.CodeCallFunction = CodeCallFunction;
 })(qs || (qs = {}));
 /// <reference path="CodeObject.ts"/>
@@ -153,7 +153,7 @@ var qs;
             }
         };
         return CodeClass;
-    }(qs.CodeObject));
+    } (qs.CodeObject));
     qs.CodeClass = CodeClass;
 })(qs || (qs = {}));
 /// <reference path="CodeObject.ts"/>
@@ -168,7 +168,7 @@ var qs;
             return _this;
         }
         return CodeDelete;
-    }(qs.CodeObject));
+    } (qs.CodeObject));
     qs.CodeDelete = CodeDelete;
 })(qs || (qs = {}));
 /// <reference path="CodeObject.ts"/>
@@ -183,7 +183,7 @@ var qs;
             this.blockExecutable = blockExecutable;
         };
         return CodeFor;
-    }(qs.CodeObject));
+    } (qs.CodeObject));
     qs.CodeFor = CodeFor;
 })(qs || (qs = {}));
 /// <reference path="CodeObject.ts"/>
@@ -195,7 +195,7 @@ var qs;
             return _super !== null && _super.apply(this, arguments) || this;
         }
         return CodeForIn;
-    }(qs.CodeObject));
+    } (qs.CodeObject));
     qs.CodeForIn = CodeForIn;
 })(qs || (qs = {}));
 /// <reference path="CodeObject.ts"/>
@@ -212,7 +212,7 @@ var qs;
             this.blockExecutable = blockExecutable;
         };
         return CodeForSimple;
-    }(qs.CodeObject));
+    } (qs.CodeObject));
     qs.CodeForSimple = CodeForSimple;
 })(qs || (qs = {}));
 /// <reference path="CodeObject.ts"/>
@@ -238,7 +238,7 @@ var qs;
             return _this;
         }
         return CodeFunction;
-    }(qs.CodeObject));
+    } (qs.CodeObject));
     qs.CodeFunction = CodeFunction;
     var FunctionType;
     (function (FunctionType) {
@@ -270,7 +270,7 @@ var qs;
             this.elseIf.push(con);
         };
         return CodeIf;
-    }(qs.CodeObject));
+    } (qs.CodeObject));
     qs.CodeIf = CodeIf;
 })(qs || (qs = {}));
 /// <reference path="CodeObject.ts"/>
@@ -291,7 +291,7 @@ var qs;
             return _this;
         }
         return CodeMember;
-    }(qs.CodeObject));
+    } (qs.CodeObject));
     qs.CodeMember = CodeMember;
     //计算标识，++或者--
     var Calc;
@@ -327,7 +327,7 @@ var qs;
             return _super !== null && _super.apply(this, arguments) || this;
         }
         return CodeModule;
-    }(qs.CodeObject));
+    } (qs.CodeObject));
     qs.CodeModule = CodeModule;
 })(qs || (qs = {}));
 /// <reference path="CodeObject.ts"/>
@@ -342,7 +342,7 @@ var qs;
             return _this;
         }
         return CodeNew;
-    }(qs.CodeObject));
+    } (qs.CodeObject));
     qs.CodeNew = CodeNew;
 })(qs || (qs = {}));
 /// <reference path="CodeObject.ts"/>
@@ -362,7 +362,7 @@ var qs;
             return _this;
         }
         return CodeOperator;
-    }(qs.CodeObject));
+    } (qs.CodeObject));
     qs.CodeOperator = CodeOperator;
 })(qs || (qs = {}));
 /// <reference path="CodeObject.ts"/>
@@ -377,7 +377,7 @@ var qs;
             return _this;
         }
         return CodeScriptObject;
-    }(qs.CodeObject));
+    } (qs.CodeObject));
     qs.CodeScriptObject = CodeScriptObject;
 })(qs || (qs = {}));
 /// <reference path="CodeObject.ts"/>
@@ -394,7 +394,7 @@ var qs;
             this.cases.push(con);
         };
         return CodeSwitch;
-    }(qs.CodeObject));
+    } (qs.CodeObject));
     qs.CodeSwitch = CodeSwitch;
 })(qs || (qs = {}));
 /// <reference path="CodeObject.ts"/>
@@ -406,7 +406,7 @@ var qs;
             return _super !== null && _super.apply(this, arguments) || this;
         }
         return CodeTernary;
-    }(qs.CodeObject));
+    } (qs.CodeObject));
     qs.CodeTernary = CodeTernary;
 })(qs || (qs = {}));
 /// <reference path="CodeObject.ts"/>
@@ -418,7 +418,7 @@ var qs;
             return _super !== null && _super.apply(this, arguments) || this;
         }
         return CodeThrow;
-    }(qs.CodeObject));
+    } (qs.CodeObject));
     qs.CodeThrow = CodeThrow;
 })(qs || (qs = {}));
 /// <reference path="CodeObject.ts"/>
@@ -430,7 +430,7 @@ var qs;
             return _super !== null && _super.apply(this, arguments) || this;
         }
         return CodeTry;
-    }(qs.CodeObject));
+    } (qs.CodeObject));
     qs.CodeTry = CodeTry;
 })(qs || (qs = {}));
 /// <reference path="CodeObject.ts"/>
@@ -445,7 +445,7 @@ var qs;
             return _this;
         }
         return CodeTypeof;
-    }(qs.CodeObject));
+    } (qs.CodeObject));
     qs.CodeTypeof = CodeTypeof;
 })(qs || (qs = {}));
 /// <reference path="CodeObject.ts"/>
@@ -467,7 +467,7 @@ var qs;
             return _this;
         }
         return CodeVariable;
-    }(qs.CodeObject));
+    } (qs.CodeObject));
     qs.CodeVariable = CodeVariable;
 })(qs || (qs = {}));
 /// <reference path="CodeObject.ts"/>
@@ -479,7 +479,7 @@ var qs;
             return _super !== null && _super.apply(this, arguments) || this;
         }
         return CodeWhile;
-    }(qs.CodeObject));
+    } (qs.CodeObject));
     qs.CodeWhile = CodeWhile;
 })(qs || (qs = {}));
 var qs;
@@ -490,7 +490,7 @@ var qs;
             this.executable = executable;
         }
         return TempCase;
-    }());
+    } ());
     qs.TempCase = TempCase;
 })(qs || (qs = {}));
 var qs;
@@ -501,7 +501,7 @@ var qs;
             this.executable = executable;
         }
         return TempCondition;
-    }());
+    } ());
     qs.TempCondition = TempCondition;
 })(qs || (qs = {}));
 var qs;
@@ -550,7 +550,7 @@ var qs;
             return null;
         };
         return TempOperator;
-    }());
+    } ());
     qs.TempOperator = TempOperator;
 })(qs || (qs = {}));
 var qs;
@@ -566,7 +566,7 @@ var qs;
             return _this;
         }
         return ExecutionError;
-    }(Error));
+    } (Error));
     qs.ExecutionError = ExecutionError;
 })(qs || (qs = {}));
 var qs;
@@ -582,7 +582,7 @@ var qs;
             return _this;
         }
         return ParserError;
-    }(Error));
+    } (Error));
     qs.ParserError = ParserError;
 })(qs || (qs = {}));
 var qs;
@@ -797,7 +797,7 @@ var qs;
             return false;
         };
         return BaseParser;
-    }());
+    } ());
     qs.BaseParser = BaseParser;
 })(qs || (qs = {}));
 var qs;
@@ -1598,7 +1598,7 @@ var qs;
             return this.tokens;
         };
         return Lexer;
-    }());
+    } ());
     qs.Lexer = Lexer;
 })(qs || (qs = {}));
 var qs;
@@ -2010,7 +2010,7 @@ var qs;
         };
         //解析Var关键字
         Parser.prototype.parseVar = function (executable) {
-            for (;;) {
+            for (; ;) {
                 executable.addInstruction(new qs.Instruction(qs.Opcode.VAR, this.readIdentifier(), this.peekToken()));
                 var peek = this.peekToken();
                 if (peek.type == qs.TokenType.Colon) {
@@ -2040,7 +2040,7 @@ var qs;
         Parser.prototype.parseIf = function (executable) {
             var ret = new qs.CodeIf();
             ret.If = this.parseCondition(true, new qs.Executable(qs.BlockType.If, executable));
-            for (;;) {
+            for (; ;) {
                 var token = this.readToken();
                 if (token.type == qs.TokenType.Else) {
                     if (this.peekToken().type == qs.TokenType.If) {
@@ -2182,7 +2182,7 @@ var qs;
             ret.condition = this.getObject();
             this.readRightParenthesis();
             this.readLeftBrace();
-            for (;;) {
+            for (; ;) {
                 var token = this.readToken();
                 if (token.type == qs.TokenType.Case) {
                     var vals = [];
@@ -2568,7 +2568,7 @@ var qs;
          */
         Parser.prototype.getVariable = function (parent) {
             var codeObject = parent;
-            for (;;) {
+            for (; ;) {
                 var token = this.readToken();
                 if (token.type == qs.TokenType.Period) {
                     var identifier = this.readIdentifier();
@@ -2773,7 +2773,7 @@ var qs;
             return parent[name];
         };
         return Parser;
-    }(qs.BaseParser));
+    } (qs.BaseParser));
     qs.Parser = Parser;
 })(qs || (qs = {}));
 var qs;
@@ -2839,7 +2839,7 @@ var qs;
             return this.name + ":" + this._lexeme.toString();
         };
         return Token;
-    }());
+    } ());
     qs.Token = Token;
 })(qs || (qs = {}));
 var qs;
@@ -3236,7 +3236,7 @@ var qs;
             this.instructionList.push(instruction);
         };
         return Executable;
-    }());
+    } ());
     qs.Executable = Executable;
     var BlockType;
     (function (BlockType) {
@@ -3314,7 +3314,7 @@ var qs;
             configurable: true
         });
         return Instruction;
-    }());
+    } ());
     qs.Instruction = Instruction;
 })(qs || (qs = {}));
 var qs;
@@ -3511,7 +3511,7 @@ var qs;
                     });
                 }
                 return QSClass;
-            }(parent));
+            } (parent));
             return _Class;
         };
         /**
@@ -3670,7 +3670,7 @@ var qs;
             };
             this.executable(code.beginExecutable, forReturnData);
             var condition;
-            for (;;) {
+            for (; ;) {
                 if (code.condition != null) {
                     condition = this.resolveOperand(code.condition, forReturnData);
                     if (!condition) {
@@ -3718,7 +3718,7 @@ var qs;
         Runtime.prototype.processCallWhile = function (instruction, returnData) {
             var code = instruction.value;
             var condition = code.while;
-            for (;;) {
+            for (; ;) {
                 var whileReturnData = {
                     value: void 0, isOver: false, isContinue: false, isBreak: false, blockType: qs.BlockType.While,
                     parent: returnData, context: {}
@@ -4464,7 +4464,7 @@ var qs;
             }
         };
         return Runtime;
-    }());
+    } ());
     qs.Runtime = Runtime;
 })(qs || (qs = {}));
 var qs;
@@ -4526,7 +4526,7 @@ var qs;
             configurable: true
         });
         return Stack;
-    }());
+    } ());
     qs.Stack = Stack;
 })(qs || (qs = {}));
 var qs;
@@ -4589,7 +4589,8 @@ var qs;
             return false;
         };
         return Utils;
-    }());
+    } ());
     qs.Utils = Utils;
 })(qs || (qs = {}));
+window.qs = qs;
 //# sourceMappingURL=qyscript.js.map

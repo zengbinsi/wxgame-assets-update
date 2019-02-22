@@ -8,8 +8,7 @@ export class WxgamePlugin implements plugins.Command {
         if (file.extname == '.js') {
             const filename = file.origin;
             if (filename == "libs/modules/promise/promise.js" || filename == 'libs/modules/promise/promise.min.js'
-                || filename.indexOf('resource/script') == 0 || filename == 'libs/qyscript/qyscript.min.js'
-                 || filename == 'libs/qyscript/qyscript.js') {
+                || filename.indexOf('resource/script') == 0) {
                 return null;
             }
             if (filename == 'libs/modules/egret/egret.js' || filename == 'libs/modules/egret/egret.min.js') {

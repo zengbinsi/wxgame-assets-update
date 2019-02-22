@@ -32,7 +32,7 @@ class Main extends eui.UILayer {
             this.getCode();
         }
         else {//如果是微信的环境
-            //从服务器请求代码，这里自己实现
+            this.getCode();//从服务器请求代码，这里自己实现
         }
     }
     private tsList = [
@@ -61,13 +61,30 @@ class Main extends eui.UILayer {
     }
     private runScript(code: string): void {
         qs.run(code, "test.Start", window);//this.code是一大串包含代码的字符串
-        //以下是更为简单的例子
+        //以下是更为性能测试的例子
         // qs.run(`
         //     class Start{
         //         public constructor() {
-        //             console.log('你好，世界！');
+        //             var time = Date.now();
+        //             var count = 0;
+        //             var a = 3;
+        //             var b = 3434;
+        //             var c = 232323;
+        //             for (var i = 0; i < 100000; i++) {
+        //                 count = a * 4 + c * 444 + b / 3 + i;
+        //             }
+        //             console.log("qyscript耗时：" + (Date.now() - time) + "ms");
         //         }
         //     }
-        // `, 'Start');
+        // `, 'Start', window);
+        // var time = Date.now();
+        // var count = 0;
+        // var a = 3;
+        // var b = 3434;
+        // var c = 232323;
+        // for (var i = 0; i < 100000; i++) {
+        //     count = a * 4 + c * 444 + b / 3 + i;
+        // }
+        // console.log("原生耗时：" + (Date.now() - time) + "ms");
     }
 }
